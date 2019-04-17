@@ -1,0 +1,14 @@
+.header-row{
+    background-color: $white;
+    padding: 1.4em 0 1.2em 0;
+    h4{
+        margin-bottom: 0;
+        letter-spacing: -1px;
+    }
+    .col-sm-1, .col-sm-11{
+        align-self: center;
+    } 
+    img{
+        max-height: 45px;
+    }
+}

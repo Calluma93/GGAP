@@ -1,0 +1,82 @@
+.btn{
+    border-radius: 0;
+    font-family: $main-font_bold;
+    transition: ease-out 0.3s;
+    font-size: 14px;
+    &:hover{
+        opacity: 0.8;
+        transition: ease-in 0.3s;
+    }
+    &.btn-white-border{
+        border: 3px solid #FFF;
+        text-align: center;
+        background: transparent;
+        border-radius: 0;
+        color: #FFF;
+        width: 100%;
+        padding: 12px 0;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        font-family: $main-font_bold;
+        letter-spacing: 1px;
+        cursor: pointer;
+        position: relative;
+        &:hover{
+            border-color: $dark-blue;
+            color: $dark-blue;
+        }
+        &:focus{
+            border-color: $dark-blue;
+            outline: none;
+        }
+    }
+    &.btn-orange_border{
+        border: 1px solid $main-orange;
+        color: $main-orange;
+        background-color: #FFF;
+        width: 100%;
+        text-transform: uppercase;
+    }
+    &.btn-orange{
+        background-color: $main-orange;
+        color: #FFF;
+        width: 100%;
+    }
+    &.btn-green{
+        color: #FFF;
+        background-color: $green;
+        width: 100%;
+    }
+    &.btn_thin{
+        padding: 0.04em 0.1em;
+        font-size: 0.8em;
+        letter-spacing: 1px;
+        font-family: $main-font;
+    }
+    &.btn-red{
+        background-color: $red;
+        color: #FFF;
+        width: 100%;
+    }
+    &.btn-grey{
+        background-color: $medium-grey;
+        color: #FFF;
+        width: 100%;
+    }
+    &.btn-auto-width{
+        width: auto;
+    }
+}
+
+.nav-trigger{
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 0;
+    svg{
+        color: $main-orange;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+

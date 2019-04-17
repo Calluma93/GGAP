@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Callum\Documents\Releases\adminportalrelease</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/GSharp.dll">
+      <publishTime>03/13/2019 10:26:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>12/07/2015 19:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>03/10/2016 14:26:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>03/09/2016 12:00:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>03/09/2016 11:57:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/18/2017 13:57:10</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>07/17/2013 17:03:52</publishTime>
+    </File>
+    <File Include="build/main.css">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="build/main.js">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="build/service-worker.js">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="build/static/media/324F4C_3_0.47afdfd5.eot">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="build/static/media/324F4C_3_0.8763cf00.ttf">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="build/static/media/324F4C_3_0.9f019fe6.woff">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="build/static/media/324F4C_5_0.657b3054.eot">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="build/static/media/324F4C_5_0.8433b78f.woff">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="build/static/media/324F4C_5_0.f0a51069.ttf">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="build/static/media/error-1.5642137f.jpg">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="build/static/media/error-2.d5f05a3b.jpg">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="build/static/media/tinymce-small.12d26c28.eot">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="build/static/media/tinymce-small.28806940.ttf">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="build/static/media/tinymce-small.7e0c88f0.woff">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="build/static/media/tinymce-small.a2a1f732.svg">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="build/static/media/tinymce.64012277.eot">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="build/static/media/tinymce.9267f79b.woff">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="build/static/media/tinymce.b84225c5.svg">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="build/static/media/tinymce.f8d29256.ttf">
+      <publishTime>03/14/2019 12:17:34</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/12/2018 10:31:18</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/05/2019 09:48:18</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>01/28/2019 14:01:38</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>12/12/2018 10:31:18</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/12/2019 17:16:01</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,79 @@
+// Applys grid styles to any row including the heading on a product table
+@mixin product-table-row-grid() {
+    @include make-row();
+
+    > li {
+        @include make-col-ready();
+        list-style: none;
+    }
+
+    .sku, .price {
+        
+        @include media-breakpoint-up(md) {
+            @include make-col(2);
+        }
+    }
+
+    .sku {
+
+        @include media-breakpoint-up(md) {
+            @include make-col(3);
+        }
+
+        @include media-breakpoint-only(xl) {
+            @include make-col(2);
+        }
+    }
+
+    .title {
+        
+        @include media-breakpoint-up(md) {
+            text-align: left;
+            @include make-col(4);
+        }
+
+        @include media-breakpoint-only(xl) {
+            @include make-col(5);
+        }
+    }
+
+    .in-stock, .on-order, .allocated {
+
+        @include media-breakpoint-up(md) {
+            @include make-col(1);
+        }
+    }
+
+    .mobile-label {
+        display: none;
+    
+        @include media-breakpoint-down(sm) {
+            display: block;
+        }
+    }
+}
+
+@mixin product-list-item-styles() {
+    background-color: white;
+    font-size: 14px;
+    color: $black;
+    border-bottom: solid lightgray 1px;
+    text-align: center; 
+    
+    @include media-breakpoint-down(sm) {
+        padding: 28px 0 20px;
+    }
+
+    .sku {
+        word-break: break-word;
+    }
+
+    .title {
+
+        @include media-breakpoint-up(md) {
+            text-align: left;
+        }
+    }
+
+    
+}

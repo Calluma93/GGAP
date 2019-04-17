@@ -1,0 +1,51 @@
+body {
+  background-color: #eee;
+  height: 100vh;
+  font-family: $main-font;
+  >div {
+    @include media-breakpoint-up(sm) {
+      height: 100vh;
+    }
+    >div {
+      @include media-breakpoint-up(sm) {
+        height: 100vh;
+      }
+      .wrapper {
+        .container-fluid {
+          @include media-breakpoint-up(sm) {
+            height: 100vh;
+          }
+          > .row {
+            @include media-breakpoint-up(sm) {
+              height: 100vh;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.ReactModalPortal {
+  height: auto;
+}
+.wrapper{
+  .sidebar{
+    @include media-breakpoint-up(md) {
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+  }
+  .app-container{
+    @include media-breakpoint-up(md) {
+      margin-left: auto!important;
+    }
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.btn{
+  position: relative;
+}

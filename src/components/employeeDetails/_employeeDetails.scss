@@ -1,0 +1,48 @@
+.employee-details{
+    background-color: $main-orange;
+    border-top: 2px solid #FFF;
+    padding-top: 1em;
+    height: 100%;
+    display: block;
+    h6{
+        color: #FFF;
+        padding-bottom: 0.8em;
+    }
+    input{
+        border-radius: 0;
+        border: 0;
+        font-family: $main-font_bold;
+        color: $dark-grey;
+    }
+    form{
+        padding-bottom: 1.4em;
+
+        ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+           font-family: $main-font_bold;
+           color: $dark-grey;
+            opacity: 1; /* Firefox */
+        }
+        
+        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+           font-family: $main-font_bold;
+           color: $dark-grey;
+        }
+        
+        ::-ms-input-placeholder { /* Microsoft Edge */
+           font-family: $main-font_bold;
+           color: $dark-grey;
+        }
+    }
+    .btn-white-border{
+        margin-bottom: 1.6em;
+    }
+    .close-section{
+        height: 30px!important;
+        padding-bottom: 2em;
+        svg{
+            color: #FFF;
+            float: right;
+            cursor: pointer;
+        }
+    }
+}

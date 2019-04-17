@@ -1,0 +1,16 @@
+.navs {
+    margin-top: 20px;
+    text-align: center;
+
+    a {
+        color: black;
+        font-family: $main-font_bold;
+        border-bottom: 1px solid $main-orange;
+        text-decoration: none;
+    }
+
+    p {
+        margin-top: 10px;
+        font-family: $main-font_bold;
+    }
+}

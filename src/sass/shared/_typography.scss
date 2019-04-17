@@ -1,0 +1,70 @@
+body{
+    font-size: 0.8em;
+
+    @include media-breakpoint-up(md) { 
+        font-size: 0.8em;
+    }
+    @include media-breakpoint-up(lg) { 
+        font-size: 1em;
+    }
+}
+
+h1 {
+    font-family: $main-font_bold;
+    font-size: 3.4em;
+}
+
+h2 {
+    font-family: $main-font_bold;
+    font-size: 3em;
+}
+
+h3 {
+    font-family: $main-font_bold;
+    font-size: 2.6em;
+}
+
+h4 {
+    font-family: $main-font_bold;
+    font-size: 2.2em;
+}
+
+h5 {
+    font-family: $main-font_bold;
+    font-size: 1em;
+}
+
+h6 {
+    font-family: $main-font_bold;
+    font-size: 0.8em;
+}
+
+.heading-light{
+    font-family: $main-font;
+}
+
+p, a, strong {
+    font-size: 1.2em;
+}
+
+p {
+    padding-bottom: 10px;
+    line-height: 1.2em;
+}
+
+strong{
+    font-family: $main-font_bold;
+    font-size: 0.8em;
+}
+
+ul, menu, dir {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0;
+}
+
+.m-t-30 {
+    margin-top: 30px !important;
+}

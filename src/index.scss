@@ -1,0 +1,48 @@
+@import 'sass/shared/mixins/grid';
+@import 'sass/shared/fonts';
+
+//Variables
+
+$main-orange: #e9651a;
+$dark-blue: #333645;
+$dark-grey: #656565;
+$medium-grey: #999999;
+$light-grey: #f6f6f6;
+$font-grey: #fffafa;
+$black: #010000;
+$white: #fff;
+$green: #019934;
+$red: #D45252;
+
+//fonts
+
+$main-font: 'FFDINWebPro';
+$main-font_bold: 'FFDINWebProBold';
+
+@import 'sass/libs/bootstrap';
+@import 'pages/login/login';
+@import 'app';
+@import 'sass/shared/typography';
+@import 'sass/shared/layout';
+@import 'sass/shared/all';
+@import 'sass/shared/animations';
+@import 'sass/shared/error';
+@import 'sass/shared/buttons';
+@import 'sass/shared/forms';
+@import 'sass/shared/fade-background';
+@import 'sass/shared/status';
+@import 'sass/shared/index-pages';
+
+@import 'components/sidebar/navigation';
+@import 'components/header/header';
+@import 'components/userCard/UserCard';
+@import 'components/employeeDetails/employeeDetails';
+@import 'components/navs/navs';
+
+@import 'pages/employees/employees';
+@import 'pages/content/htmlPages/html-pages';
+@import 'pages/content/news/news-page';
+@import 'pages/products/products';
+
+@import 'pages/products/productsListItemMixins';
+@import 'pages/products/productsListItem';

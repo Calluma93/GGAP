@@ -1,0 +1,25 @@
+@mixin grid($per_row, $space_between: 15px, $space_below: 0) {
+    // the space to be covered divided by the number of items
+    // minus the following:
+    // add up all the spaces between (there is one less space between than there are items per row, because the first one has no space)
+    // now you have all the space, divide it by the number of items per row to get how much of that space each one needs to compensate for 
+    // (ie the amount it must reduce it's width by)
+    width: calc(
+        100% /#{$per_row}
+        -
+        #{$space_between* ($per_row - 1) / $per_row}
+    );
+
+    // everything gets a bottom margin
+    margin-bottom: $space_below;
+
+    // give all items a margin except the first
+    &:not(:nth-child(#{$per_row}n + 1)) {
+        margin-left: $space_between; 
+    }
+}
+
+@mixin make-col-now($col) {
+    @include make-col-ready();
+    @include make-col($col);
+}

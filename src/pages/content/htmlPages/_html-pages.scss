@@ -1,0 +1,62 @@
+.html-pages{
+    padding-top: 1em;
+    .html-page-column{
+        margin-bottom: 30px;
+        display: flex;
+        h6{
+            color: $medium-grey;
+        }
+        .wrapper{
+            background-color: #ffffff;
+            text-align: center;
+            padding: 1em 0.5em;
+            width: 100%;
+            .html-column-category{
+                border-top: 1px solid $medium-grey;
+                margin-top: 1em; 
+                width: 100%;
+                h6{
+                    text-transform: uppercase;
+                    color: $medium-grey;
+                    
+                }
+            }
+        } 
+        .btn{
+            color: $main-orange;
+            margin-top: 1em;
+        }
+        h6{
+            padding: 0.4em 0;
+        }
+    }
+    
+}
+.edit-html-page{
+    background-color: #ffffff;
+    margin-top: 1em;
+    padding: 1em 15px;
+    input, textarea{
+        border: 1px solid $light-grey;
+        padding: 6px 6px;
+    }
+    textarea{
+        height: 400px;
+    }
+    .form-group{ 
+        label{
+            font-family: $main-font_bold;
+            color: #000;
+        }
+        
+    }
+    button{
+        margin-bottom: 1em;
+    }
+    .user-feedback{
+        margin-top: 1em;
+    }
+    a{
+        color: black;
+    }
+}

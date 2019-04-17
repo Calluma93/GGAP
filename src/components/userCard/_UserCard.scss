@@ -1,0 +1,24 @@
+.user-card{
+    background-color: $main-orange;
+    padding: 0.4em 0;
+    .col-sm-3{
+        text-align: center;
+        align-self: center;
+        svg{
+            color: $white;
+        }
+    }
+    p, span, strong{
+        padding-bottom: 0;
+        padding-top: 0.4em;
+        margin-bottom: 0;
+        font-size: 1em;
+        color: $white;
+    }
+    span{
+        cursor: pointer;
+    }
+    strong{
+        text-transform: uppercase;
+    }
+}

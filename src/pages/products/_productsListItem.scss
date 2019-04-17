@@ -1,0 +1,19 @@
+.product-list-item {
+    @include product-table-row-grid();
+    @include product-list-item-styles();
+}
+
+.products-table__title-bar {
+    @include make-row();
+    @include product-table-row-grid();
+    margin-top: 50px;
+    font-size: 10px;
+    color: $medium-grey;
+    border-top: solid lightgray 1px;
+    border-bottom: solid lightgray 1px;
+    text-align: center;
+
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+}

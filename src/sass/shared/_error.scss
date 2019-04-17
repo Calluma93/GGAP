@@ -1,0 +1,22 @@
+.app-error{
+    > div{
+        height: 100vh;
+        .col-sm-12{
+            align-self: center;
+            color: #FFF;
+            > div{
+                display: inline-block;
+                padding: 3em;
+                background-color: rgba(233, 101, 26, 0.7 );
+            }
+        }
+    }
+}
+
+.badge{
+    &.badge-danger{
+        background-color: $red;
+        border-radius: 0;
+        padding: 0.4em 1em;
+    }
+}
